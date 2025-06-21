@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ziyan's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background: #4b6cb7;
+      background: linear-gradient(to right, #182848, #4b6cb7);
+      padding: 20px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav h1 {
+      color: #fff;
+      font-size: 28px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      background-color: #ffffff20;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #ffffff40;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      color: #4b6cb7;
+    }
+
+    .card p, .card ul {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .card ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    .card a {
+      color: #4b6cb7;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      background: #182848;
+      color: #fff;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      nav ul li {
+        width: 100%;
+        text-align: center;
+      }
+
+      nav ul li a {
+        display: block;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <h1>Ziyan's Portfolio</h1>
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="intro" class="card">
+      <h2>Hello, I'm Ziyan</h2>
+      <p>I’m an HTML web developer focused on crafting clean, user-friendly and visually appealing web experiences. I enjoy building websites that look good and work well across all devices.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>My Projects</h2>
+      <ul>
+        <li>💼 Portfolio Website</li>
+        <li>📝 Blog Layout</li>
+        <li>📸 Image Gallery</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="https://gmail.com/mailtoziyantv@gmail.com" target="_blank">@mailtoziyantv@gmail.com</a></p>
+      <p>
+        Instagram: 
+        <a href="https://instagram.com/ziyan_tv" target="_blank">@ziyan_tv</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ziyan. All rights reserved.
+  </footer>
+
+</body>
+</html>
